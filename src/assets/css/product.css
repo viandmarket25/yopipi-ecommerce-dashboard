@@ -1,0 +1,427 @@
+.temp-image-container-holder {
+    height: 80px;
+    width: 80px;
+    width: 80px;
+    position: relative;
+    float: left;
+    margin: 4px;
+    border-radius: 8px;
+    box-shadow: inset 0px 0px 0px 1px #f1f1f1;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.temp-image-container-holder:hover {
+    opacity: 0.9;
+}
+
+.temp-image-container {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+}
+
+.close-temp-image {
+    height: 30px;
+    width: 30px;
+    position: relative;
+}
+
+.close-temp-image-container {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+}
+
+.temp-image {
+    height: 80px;
+    width: 80px;
+    position: relative;
+    float: left;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.temp-image:hover {
+    opacity: 0.7;
+}
+
+.remove-image-button {
+    height: 22px;
+    width: 22px;
+    position: relative;
+    float: right;
+    right: 6px;
+    top: 2px;
+    box-shadow: inset 0px 0px 0px 1px #f1f1f1;
+    border-radius: 100px;
+    background: #f1f1f1;
+}
+
+.remove-image-button:hover {
+    opacity: 0.8;
+}
+
+
+/************** product variation styles   ********background: #f0efeb;  box-shadow: 0px 0px 0px 1px #f1f1f1; ******/
+
+.main-variation-base {
+    width: 600px;
+    min-height: 200px;
+    border-radius: 10px;
+    position: relative;
+    white-space: nowrap;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-left: 6px;
+    /*background: rgba(51, 170, 51, .03);*/
+    box-shadow: inset 0px 0px 2px 1px #f1f1f1;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.main-variation-base-top {
+    width: 100%;
+    height: 50px;
+    float: left;
+}
+
+.main-variation-base-content-holder {
+    width: 100%;
+    min-height: 200px;
+    max-height: auto;
+    float: left;
+}
+
+.close-variation-base {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    float: right;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+
+/**********            ************/
+
+.main-variation-option-list-container {
+    width: 500px;
+    height: auto;
+    float: left;
+    margin-left: 20px;
+    white-space: nowrap;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.main-variation-option-container {
+    width: auto;
+    height: auto;
+    float: left;
+    border-radius: 8px;
+    margin-right: 20px;
+    margin-top: 10px;
+    padding: 2px;
+    padding-right: 20px;
+}
+
+.variation-option-data {
+    width: 210px;
+    min-height: 40px;
+    max-height: 100px;
+    overflow-y: scroll;
+    resize: vertical;
+    background: #ffffff;
+    outline: none;
+    border: 1px solid #f1f1f1;
+    border-radius: 4px;
+    color: #606060;
+    outline: none;
+    padding-right: 10px;
+    font-family: Montserrat-Medium;
+    cursor: text;
+    padding-left: 10px;
+    float: left;
+    line-height: 15px;
+    text-align: left;
+    font-size: 11px;
+}
+
+.variation-option-price {
+    width: 80px;
+    height: 40px;
+    color: #606060;
+    border-radius: 4px;
+    outline: none;
+    cursor: text;
+    margin-left: 10px;
+    border: none;
+    box-shadow: inset 0px 0px 0px 1px #f1f1f1;
+    float: left;
+    line-height: 40px;
+    padding-left: 10px;
+    text-align: left;
+    background: #fafafa;
+    font-size: 16px;
+    content: attr(data-text)
+}
+
+
+/*
+.variation-option-price:before {
+    content: "0.00";
+}
+
+*/
+
+.remove-variation-option-button-container {
+    width: 30px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    float: left;
+    line-height: 40px;
+    padding-left: 10px;
+}
+
+.remove-variation-option-button {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: relative;
+    top: 8px;
+    border-radius: 6px;
+    padding: 2px;
+}
+
+.remove-variation-option-button:hover {
+    opacity: 0.8;
+    box-shadow: 0px 0px 0px 2px #ef476f;
+}
+
+
+/*******                    ******/
+
+.image-variation-main-variation-option-container {
+    width: 230px;
+    height: auto;
+    float: left;
+    border-radius: 6px;
+    position: relative;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-bottom: 4px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-right: 0px;
+    background: #fafafa;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.image-variation-variation-option-data {
+    width: 210px;
+    min-height: 40px;
+    max-height: 100px;
+    overflow-y: scroll;
+    background: #ffffff;
+    white-space: pre-wrap;
+    resize: vertical;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #f1f1f1;
+    font-family: Montserrat-Medium;
+    padding-right: 10px;
+    padding-left: 10px;
+    float: left;
+    cursor: text;
+    line-height: 15px;
+    text-align: left;
+    float: left;
+    font-size: 11px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.image-variation-variation-option-price-label {
+    width: 30px;
+    height: 40px;
+    margin-left: 0px;
+    outline: none;
+    float: left;
+    line-height: 40px;
+    opacity: 0.7;
+    padding-left: 10px;
+    border-radius: 6px;
+    font-family: Montserrat-SemiBold;
+    cursor: text;
+    text-align: left;
+    box-shadow: 0px 0px 0px 1px #f1f1f1;
+    float: left;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.image-variation-variation-option-price-label-text {
+    width: 30px;
+    height: 40px;
+    margin-left: 4px;
+    outline: none;
+    float: left;
+    line-height: 40px;
+    opacity: 0.7;
+    font-family: Montserrat-SemiBold;
+    padding-left: 10px;
+    border-radius: 6px;
+    cursor: text;
+    text-align: left;
+    box-shadow: 0px 0px 0px 1px #f1f1f1;
+    float: left;
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+.image-variation-variation-option-price {
+    width: 120px;
+    height: 40px;
+    margin-left: 2px;
+    outline: none;
+    float: left;
+    border: none;
+    box-shadow: inset 0px 0px 0px 1px #f1f1f1;
+    line-height: 40px;
+    padding-left: 10px;
+    cursor: text;
+    text-align: left;
+    float: left;
+    font-size: 16px;
+    margin-top: 4px;
+}
+
+.image-variation-remove-variation-option-button-container {
+    width: 30px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    float: left;
+    line-height: 40px;
+    padding-left: 10px;
+}
+
+.image-variation-remove-variation-option-button {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: relative;
+    top: 12px;
+    border-radius: 8px;
+    float: right;
+}
+
+.image-variation-remove-variation-option-button:hover {
+    opacity: 0.8;
+}
+
+.image-variation-variation-image-data {
+    width: 230px;
+    height: 200px;
+    position: relative;
+    float: left;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.image-variation-variation-image-data:hover {
+    opacity: 0.8;
+}
+
+
+/******************                       ******************/
+
+.single-variation-base-list {
+    width: 600px;
+    height: 100%;
+    background: #fcfcfc;
+    overflow-y: scroll;
+}
+
+.single-variation-name-container {
+    width: 100%;
+    height: 50px;
+    float: left;
+    padding-top: 4px;
+    margin-top: 10px;
+}
+
+.single-variation-name-data {
+    width: 200px;
+    height: 40px;
+    background: #fcfcfc;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    outline: none;
+    border: none;
+    position: relative;
+    left: 20px;
+}
+
+.single-variation-control-container {
+    width: 100%;
+    height: 70px;
+    float: left;
+    padding-top: 4px;
+    margin-top: 40px;
+}
+
+.single-variation-control-holder {
+    width: 400px;
+    height: 50px;
+    float: left;
+    margin-left: 20px;
+}
+
+.single-variation-button-holder {
+    width: 50px;
+    height: 40px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-right: 10px;
+    border: 2px dotted #f1f1f1;
+    cursor: pointer;
+    float: left;
+    line-height: 34px;
+}
+
+.single-one-more-variation-option {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.variation-photo-input-file {
+    float: left;
+}
+
+.single-variation-label {
+    width: 180px;
+    height: 44px;
+    border-radius: 8px;
+    margin-right: 10px;
+    float: left;
+    line-height: 44px;
+}
+
+
+/******  :empty:not(:focus):before     **/
+
+.variation-option-price:empty(:focus):before {
+    content: attr(data-text)
+}

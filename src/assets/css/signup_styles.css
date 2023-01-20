@@ -1,0 +1,237 @@
+.cover_up {
+    display: none;
+    height: 101%;
+    width: 100%;
+    bottom: 0px;
+    opacity: 0.7;
+    left: -2px;
+    background-color: #404040;
+    position: fixed;
+    z-index: 100;
+}
+
+.back_to_buyer {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    float: left;
+    top: 0px;
+    left: 2px;
+    display: none;
+}
+
+.back_from_signup {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    float: left;
+    top: 0px;
+    left: 2px;
+}
+
+.signup_box {
+    display: none;
+    background-color: white;
+    border-radius: 7px;
+    height: 94%;
+    width: 50%;
+    position: fixed;
+    left: 25%;
+    right: 25%;
+    top: 5px;
+    z-index: 200;
+    overflow: hidden;
+}
+
+.cart_box {
+    display: none;
+    background-color: white;
+    border-radius: 7px;
+    height: 600px;
+    width: 50%;
+    position: fixed;
+    left: 25%;
+    right: 25%;
+    top: 30px;
+    z-index: 200;
+}
+
+.update_profile_box {
+    display: none;
+    background-color: white;
+    border-radius: 7px;
+    height: 600px;
+    width: 50%;
+    position: fixed;
+    left: 25%;
+    right: 25%;
+    top: 30px;
+    z-index: 200;
+}
+
+.view_product_box {
+    display: none;
+    background-color: white;
+    border-radius: 7px;
+    height: 600px;
+    width: 50%;
+    position: fixed;
+    left: 25%;
+    right: 25%;
+    top: 30px;
+    z-index: 200;
+}
+
+.shipping_box {
+    display: none;
+    background-color: white;
+    border-radius: 7px;
+    height: 600px;
+    width: 50%;
+    position: fixed;
+    left: 25%;
+    right: 25%;
+    top: 30px;
+    z-index: 200;
+}
+
+.checkout_box {
+    display: none;
+    background-color: white;
+    border-radius: 7px;
+    height: 600px;
+    width: 70%;
+    position: fixed;
+    left: 15%;
+    right: 15%;
+    top: 30px;
+    z-index: 200;
+}
+
+.logo_header {
+    background-color: white;
+    margin-top: 15px;
+    position: relative;
+}
+
+.data_fields {
+    background-color: white;
+    position: relative;
+    margin-top: 40px;
+    height: 400px;
+    width: 60%;
+}
+
+.field_des {
+    position: relative;
+    margin: 5px;
+    border: none;
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.tbuy_logo {
+    width: 100px;
+    height: 40px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.signup_note {
+    font-family: sans-serif;
+    font-size: 15px;
+    position: relative;
+    top: 20px;
+}
+
+.signup_ins {
+    font-family: sans-serif;
+    font-size: 15px;
+    position: relative;
+    top: 30px;
+    color: #404040;
+}
+
+.field_sub {
+    position: relative;
+    margin: 5px;
+    border: none;
+    width: 90%;
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    background-color: #06d6a0;
+}
+
+.field_sub_log {
+    position: relative;
+    margin-top: 15px;
+    border: none;
+    width: 90%;
+    color: gray;
+    height: 40px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+}
+
+.field_sub_sign {
+    position: relative;
+    margin-top: 15px;
+    border: none;
+    width: 90%;
+    color: gray;
+    height: 40px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+}
+
+.field_dev {
+    height: 1px;
+    width: 100%;
+    position: relative;
+    top: 20px;
+    background-color: #06d6a0;
+}
+
+.field_or {
+    height: 30px;
+    width: 140px;
+    position: relative;
+    top: 3px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.field_passlost {
+    height: 30px;
+    width: 240px;
+    position: relative;
+    top: 3px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.already_user {
+    font-family: sans-serif;
+    font-size: 13px;
+    color: gray;
+    position: relative;
+    top: 4px;
+}

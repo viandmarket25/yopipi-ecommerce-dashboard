@@ -1,0 +1,238 @@
+
+body::-webkit-scrollbar {
+    width: 9px;
+}
+
+body::-webkit-scrollbar-track {
+    border-radius: 0px;
+    background: white;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 0px;
+    box-shadow: inset 0 0 2px white;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #191919;
+    border-radius: 0px;
+    box-shadow: inset 0 0 2px white;
+}
+
+.box {
+    background-color: none;
+}
+
+body {
+    background-color: #fefefe;
+}
+
+.main_logo {
+    width: 100px;
+    height: 40px;
+    float: left;
+    left: 30px;
+    position: relative;
+    top: 5px;
+}
+
+ul {
+    max-width: 50%;
+    min-width: 10%;
+    align-items: center;
+    height: 10px;
+}
+
+li {
+    color: #404040;
+    align-items: center;
+    font-size: 14px;
+    font-family: sans-serif;
+    list-style-type: none;
+    white-space: nowrap;
+    float: left;
+    top: -7px;
+    position: relative;
+    margin-left: 20px;
+}
+
+#root2 {
+    background-color: red;
+}
+
+#top_bar {
+    height: 120px;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 100;
+}
+
+#modules-container {
+    padding-left: 200px;
+    height: 250px;
+    width: 85%;
+    position: relative;
+    top: 60px;
+    background-color: white;
+    font-size: 14px;
+    height: 550px;
+    width: 85%;
+    position: relative;
+    top: 50px;
+    left: 20%;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+#right_bar {
+    width: 35px;
+    height: 170px;
+    background-color: white;
+    border: 1px solid gray;
+    position: fixed;
+    right: 0px;
+    top: 20%;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.user_prompt_signup {
+    font-size: 15px;
+    font-family: calibri;
+    position: relative;
+    top: 8px;
+    left: 5px;
+}
+
+.user_display_name {
+    font-size: 15px;
+    font-family: calibri;
+    position: relative;
+    top: 8px;
+    right: 22px;
+    float: right;
+}
+
+.cart_icon {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    margin-top: 15px;
+}
+
+.profile_icon {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    margin-top: 15px;
+}
+
+.ship_icon {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    margin-top: 15px;
+}
+
+.search_box {
+    width: 50%;
+    height: 32px;
+    border: 1px solid gray;
+    border-radius: 12px;
+    top: 6px;
+    left: 25%;
+    color: gray;
+    position: fixed;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-left: 8px;
+}
+
+#search_i {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 350px;
+    top: 8px;
+}
+
+#products {
+    min-height: 500px;
+    max-height: auto;
+    width: 75%;
+    position: relative;
+    top: 65px;
+    background-color: white;
+    left: 22%;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+#footer {
+    height: 5%;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    border-top: 1px solid #f1f1f1;
+    align-content: center;
+    align-items: center;
+}
+
+#nav_bar {
+    width: 19%;
+    height: 80%;
+    border-radius: 10px;
+    top: 130px;
+    background-color: white;
+    position: fixed;
+    left: 60px;
+    font-family: sans-serif;
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+.profile_box {
+    position: relative;
+    float: right;
+    width: 250px;
+    height: 40px;
+    top: 7px;
+}
+
+.prof_img {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    float: right;
+    right: 15px;
+    border-radius: 100px;
+    border: 1px solid #ccc;
+}
+
+.prof_img_set {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    float: right;
+    right: 15px;
+    border-radius: 100px;
+    border: 1px solid #ccc;
+}
+
+.top-menu-list-link-item {
+    cursor: pointer;
+    font-size: 10px;
+    font-family: Montserrat-Regular;
+    font-size: 10px;
+    color: #000000;
+}
+
+.search-category-item-style {
+    font-size: 11px;
+    font-family: Montserrat-Regular;
+}
